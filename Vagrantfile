@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |c|
   # Operating system
-  c.vm.box = "bento/debian-10.6"
+  c.vm.box = "bento/debian-10"
 
   # Networking settings
   c.vm.hostname = "phoenix.local"
