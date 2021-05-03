@@ -2,7 +2,7 @@
 
 # Install node version manager
 {
-    wget -q https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh
+    wget -q https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
     bash install.sh
     rm install.sh
 }

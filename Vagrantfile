@@ -44,7 +44,7 @@ Vagrant.configure("2") do |c|
 
   # Phoenix Framework
   c.vm.provision :shell, privileged: false,
-    inline: "mix archive.install hex phx_new 1.5.7 --force"
+    inline: "mix archive.install hex phx_new --force"
 
   # Node LTS, for Phoenix
   c.vm.provision :shell, privileged: false,
